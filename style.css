@@ -11,17 +11,68 @@ html {
 body {
   font-size: 1.4rem;
   background-color: hsl(30, 38%, 92%);
+  position: relative;
 }
 main {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 20%);
   display: flex;
   justify-content: center;
-  width: 60vw;
-  height: 60vh;
+  height: 70vh;
+  width: 50vw;
+}
+.perfume__image {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .container {
-  width: 60%;
-  height: 60%;
   display: flex;
-  justify-content: center;
-  background-color: red;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 3rem;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.container__heading-small {
+  font-family: verdana;
+}
+.container__heading-primary {
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 3rem;
+  color: hsl(212, 21%, 14%);
+}
+.container__paragraph {
+  font-family: verdana;
+  font-size: 1.4rem;
+}
+.contanier__prizes {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.container__prizes-new {
+  font-family: verdana;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 3rem;
+}
+.container__prizes-old {
+  font-size: 1.4rem;
+  font-family: verdana;
+}
+.container__link {
+  padding: 1rem 1.5rem;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  border-radius: 1rem;
+  text-align: center;
 }

@@ -1,3 +1,6 @@
+README.md
+README-template.md
+style-guide.md
 # Avoid accidental upload of the Sketch and Figma design files
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
@@ -15,6 +18,4 @@
 .DS_Store
 .prettierignore
 
-README.md
-README-template.md
-style-guide.md
+
