@@ -1,0 +1,14 @@
+{
+  "name": "product-preview-front-end-mentor",
+  "version": "1.0.0",
+  "description": "Front end mentor coding challenge",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Adefolami",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

@@ -1,6 +1,8 @@
 README.md
 README-template.md
 style-guide.md
+node_modules
+.parcel-cache
 # Avoid accidental upload of the Sketch and Figma design files
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
