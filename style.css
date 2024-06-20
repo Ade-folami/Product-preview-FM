@@ -67,14 +67,15 @@ main {
   }
 }
 .container__heading-small {
-  font-family: verdana;
+  font-family: "Montserrat", verdana;
+  font-weight: 500;
 
   @media (max-width: 375px) {
     font-size: 1.3rem;
   }
 }
 .container__heading-primary {
-  font-family: verdana;
+  font-family: "Fraunces", verdana;
   font-weight: 700;
   font-size: 3.3rem;
   color: hsl(212, 21%, 14%);
@@ -86,7 +87,7 @@ main {
   }
 }
 .container__paragraph {
-  font-family: verdana;
+  font-family: "Montserrat", verdana;
   font-size: 1.4rem;
 
   @media (max-width: 375px) {
@@ -98,13 +99,13 @@ main {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  font-family: "Fraunces", verdana;
 
   @media (max-width: 375px) {
     padding: 1rem 0;
   }
 }
 .container__prizes-new {
-  font-family: verdana;
   color: hsl(158, 36%, 37%);
   font-weight: 700;
   font-size: 3rem;
@@ -115,7 +116,7 @@ main {
 }
 .container__prizes-old {
   font-size: 1.4rem;
-  font-family: verdana;
+  text-decoration-line: line-through;
 
   @media (max-width: 375px) {
     font-size: 1rem;
@@ -128,6 +129,7 @@ main {
   text-decoration: none;
   border-radius: 1rem;
   text-align: center;
+  font-family: "Montserrat", verdana;
 
   @media (max-width: 375px) {
     margin-top: 1rem;
