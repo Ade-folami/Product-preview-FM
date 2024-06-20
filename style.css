@@ -22,6 +22,17 @@ main {
   justify-content: center;
   height: 70vh;
   width: 50vw;
+
+  @media (max-width: 375px) {
+    top: 10;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+  }
 }
 .perfume__image {
   display: inline-block;
@@ -29,6 +40,14 @@ main {
   width: 50%;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+
+  @media (max-width: 375px) {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: 50%;
+  }
 }
 .container {
   display: flex;
@@ -39,34 +58,68 @@ main {
   background-color: hsl(0, 0%, 100%);
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+
+  @media (max-width: 375px) {
+    padding: 2rem;
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
 }
 .container__heading-small {
   font-family: verdana;
+
+  @media (max-width: 375px) {
+    font-size: 1.3rem;
+  }
 }
 .container__heading-primary {
   font-family: verdana;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.3rem;
   color: hsl(212, 21%, 14%);
+
+  @media (max-width: 375px) {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
 }
 .container__paragraph {
   font-family: verdana;
   font-size: 1.4rem;
+
+  @media (max-width: 375px) {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
 }
 .contanier__prizes {
   display: flex;
   justify-content: space-between;
   width: 80%;
+
+  @media (max-width: 375px) {
+    padding: 1rem 0;
+  }
 }
 .container__prizes-new {
   font-family: verdana;
   color: hsl(158, 36%, 37%);
   font-weight: 700;
   font-size: 3rem;
+
+  @media (max-width: 375px) {
+    font-size: 2rem;
+  }
 }
 .container__prizes-old {
   font-size: 1.4rem;
   font-family: verdana;
+
+  @media (max-width: 375px) {
+    font-size: 1rem;
+  }
 }
 .container__link {
   padding: 1rem 1.5rem;
@@ -75,4 +128,15 @@ main {
   text-decoration: none;
   border-radius: 1rem;
   text-align: center;
+
+  @media (max-width: 375px) {
+    margin-top: 1rem;
+  }
+}
+.container__link:hover {
+  background-color: hsl(158, 25%, 25%);
+  cursor: pointer;
+}
+.container__link:focus {
+  outline: none;
 }
